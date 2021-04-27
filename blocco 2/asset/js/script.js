@@ -1,3 +1,9 @@
+//creare 10 oggetii di zucchine con proprietà
+// Dividi in due array separati le zucchine che misurano meno o più di 15cm
+//stampa separatamente quanto pesano i due gruppi di zucchine
+
+
+
 $(function() {
 
 
@@ -5,21 +11,21 @@ $(function() {
     var zucchine = [{
 
 
-            origine: 'italia',
+            origine: 'Berlino',
             lunghezza: 10,
             peso: 41,
 
         },
 
         {
-            origine: 'francia',
+            origine: 'Brasile',
             lunghezza: 20,
 
             peso: 35,
 
         },
         {
-            origine: 'germania',
+            origine: 'Tunesia',
             lunghezza: 7,
 
 
@@ -28,7 +34,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Veronese',
             lunghezza: 20,
 
 
@@ -37,7 +43,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Scozia',
             lunghezza: 12,
 
 
@@ -46,7 +52,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Danimarca',
             lunghezza: 20,
 
 
@@ -55,7 +61,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Italia',
             lunghezza: 7,
 
 
@@ -64,7 +70,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Germania',
             lunghezza: 25,
 
 
@@ -73,7 +79,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Spagna',
             lunghezza: 8,
 
 
@@ -82,7 +88,7 @@ $(function() {
 
         },
         {
-            origine: 'germania',
+            origine: 'Francia',
             lunghezza: 25,
 
 
@@ -99,13 +105,43 @@ $(function() {
     ]
 
     console.log(zucchine);
+    var minore = [];
+    var maggiore = [];
+    var pesoTotale = 0;
+
 
     for (var tipoZucchina of zucchine) {
 
-        console.log('è lunga ' + tipoZucchina.lunghezza);
+        //console.log(tipoZucchina.lunghezza + ' cm');
+
         if (tipoZucchina.lunghezza < 15) {
-            console.log("sei lunga" + tipoZucchina.lunghezza);
-        } else('sei più lunga')
+            minore = tipoZucchina.lunghezza
+            pesoTotale += tipoZucchina.peso
+                //console.log("il peso totale è " + pesoTotale + "  gr");
+
+
+
+
+            console.log('sei minore' + minore + "il peso totale è " + pesoTotale + "  gr");
+        }
+        if (tipoZucchina.lunghezza > 15) {
+            maggiore = tipoZucchina.lunghezza
+            pesoTotale += tipoZucchina.peso
+                //console.log("il peso totale è " + pesoTotale + "  gr");
+
+
+            console.log('sei maggiore' + maggiore + "il peso totale è " + pesoTotale + "  gr");
+
+        }
+
+
+
+
+
+
+
+
+
 
 
     };
