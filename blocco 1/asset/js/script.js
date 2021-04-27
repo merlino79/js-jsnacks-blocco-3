@@ -15,7 +15,7 @@ $(function() {
 
             origine: 'Nera di Milano',
             lunghezza: 30,
-            peso: "3 gr",
+            peso: 3,
 
         },
 
@@ -23,7 +23,7 @@ $(function() {
             origine: 'Alberello',
             lunghezza: 45,
 
-            peso: "65 gr",
+            peso: 15,
 
         },
         {
@@ -31,7 +31,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "25gr",
+            peso: 25,
 
 
         },
@@ -40,7 +40,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "75 gr",
+            peso: 22,
 
 
         },
@@ -49,7 +49,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "25 gr",
+            peso: 12,
 
 
         },
@@ -58,7 +58,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "7 gr",
+            peso: 7,
 
 
         },
@@ -67,7 +67,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "45 gr",
+            peso: 45,
 
 
         },
@@ -76,7 +76,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "15 gr",
+            peso: 25,
 
 
         },
@@ -85,7 +85,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "30 gr",
+            peso: 30,
 
 
         },
@@ -94,7 +94,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: "20 gr",
+            peso: 20,
 
 
         },
@@ -105,11 +105,15 @@ $(function() {
 
     console.log(zucchine);
 
+    var pesoTotoale = 0;
+
     for (var varietàZucchine of zucchine) {
 
-        console.log('peso: ' + varietàZucchine.peso);
-        var pesoTotoale = +varietàZucchine.peso;
-        console.log(parseInt(pesoTotoale));
+        //console.log('peso zucchine : ' + varietàZucchine.peso);
+        pesoTotoale += varietàZucchine.peso;
+        //console.log('il peso delle zucchine è :' + pesoTotoale);
+        document.getElementById('testo').innerHTML = 'il peso totale delle zucchine è ' + pesoTotoale + " gr";
+
 
 
 
