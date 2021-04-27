@@ -1,25 +1,25 @@
 $(function() {
-    console.log('prova');
+    //console.log('prova');
 
 
     var zucchine = [{
 
 
-            origine: 'italia',
+            origine: 'Nera di Milano',
             lunghezza: 30,
             peso: 41,
 
         },
 
         {
-            origine: 'francia',
+            origine: 'Alberello',
             lunghezza: 45,
 
             peso: 35,
 
         },
         {
-            origine: 'germania',
+            origine: 'Tonda di Nizza',
             lunghezza: 40,
 
 
@@ -27,6 +27,71 @@ $(function() {
 
 
         },
+        {
+            origine: 'Lunghe fiorentine',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+        {
+            origine: 'Trombetta di_Albenga',
+            lunghezza: 40,
+
+
+            peso: 52,
+
+
+        },
+
+
 
     ]
 

@@ -9,9 +9,12 @@ $(function() {
 
 
 
+
+
     for (arr of arrBidimensionale) {
         for (var arrIn of arr) {
-            console.log(arrIn);
+            var total = arrIn;
+            console.log(total + arrIn);
         }
         console.log('--------->')
     }
