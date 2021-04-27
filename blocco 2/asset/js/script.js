@@ -104,8 +104,8 @@ $(function() {
 
         console.log('è lunga ' + tipoZucchina.lunghezza);
         if (tipoZucchina.lunghezza < 15) {
-            console.log("sei lunga meno di 15cm" + tipoZucchina.lunghezza);
-        }
+            console.log("sei lunga" + tipoZucchina.lunghezza);
+        } else('sei più lunga')
 
 
     };
