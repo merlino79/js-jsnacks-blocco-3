@@ -1,3 +1,11 @@
+//creare un array di 10 oggetti che rappresentano una zucchina
+//per ogni varietà peso e lunghezza
+//calcolare il peso della zucchina
+
+
+
+
+
 $(function() {
     //console.log('prova');
 
@@ -7,7 +15,7 @@ $(function() {
 
             origine: 'Nera di Milano',
             lunghezza: 30,
-            peso: 41,
+            peso: "3 gr",
 
         },
 
@@ -15,7 +23,7 @@ $(function() {
             origine: 'Alberello',
             lunghezza: 45,
 
-            peso: 35,
+            peso: "65 gr",
 
         },
         {
@@ -23,7 +31,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "25gr",
 
 
         },
@@ -32,7 +40,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "75 gr",
 
 
         },
@@ -41,7 +49,7 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "25 gr",
 
 
         },
@@ -50,43 +58,43 @@ $(function() {
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "7 gr",
 
 
         },
         {
-            origine: 'Trombetta di_Albenga',
+            origine: 'Zucchino giallo Golden',
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "45 gr",
 
 
         },
         {
-            origine: 'Trombetta di_Albenga',
+            origine: 'Italiane',
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "15 gr",
 
 
         },
         {
-            origine: 'Trombetta di_Albenga',
+            origine: 'Francesi',
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "30 gr",
 
 
         },
         {
-            origine: 'Trombetta di_Albenga',
+            origine: 'Ungheresi',
             lunghezza: 40,
 
 
-            peso: 52,
+            peso: "20 gr",
 
 
         },
@@ -98,7 +106,12 @@ $(function() {
     console.log(zucchine);
 
     for (var varietàZucchine of zucchine) {
+
         console.log('peso: ' + varietàZucchine.peso);
+        var pesoTotoale = +varietàZucchine.peso;
+        console.log(parseInt(pesoTotoale));
+
+
 
     }
 
