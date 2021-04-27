@@ -11,7 +11,7 @@ $(function() {
 
     for (arr of arrBidimensionale) {
         for (var arrIn of arr) {
-            console.log(arr + arrIn);
+            console.log(arrIn);
         }
         console.log('--------->')
     }
