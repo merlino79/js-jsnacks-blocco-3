@@ -1,6 +1,0 @@
-$(function() {
-    consol.log('ciao');
-
-
-
-});
