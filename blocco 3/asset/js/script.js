@@ -1,34 +1,21 @@
-$(function() {
-
-    var arrBidimensionale = [
-        ['a', 'b', 'c', ],
-        [1, 2, 3, 4, 5, ],
-
-    ];
-    console.log(arrBidimensionale);
+const arrlett = ['a', 'b', 'c', 'd', 'e', ];
+const arrnume = [1, 2, 3, 4, 5, ];
+const arrToT = [];
 
 
+//console.log(arrlett);
+//console.log(arrnume);
 
+let i = 0;
 
+//ciclo wile
 
-    for (arr of arrBidimensionale) {
-        for (var arrIn of arr) {
-            var total = arrIn;
-            console.log(total + arrIn);
-        }
-        console.log('--------->')
-    }
+while (arrlett[i] != undefined && arrnume[i] != undefined) {
+    arrToT.push(arrlett[i]);
+    arrToT.push(arrnume[i]);
+    i++;
+};
 
 
 
-
-
-
-
-
-
-
-
-
-
-});
+console.log(arrToT + '');
