@@ -13,46 +13,71 @@ $(function() {
 
         {
             nome: 'abart',
+            modello: 500,
+            alimentazione: ['benzina', ]
 
         },
         {
             nome: 'lancia',
+            modello: 500,
+            alimentazione: ['elettrica', ]
 
         },
         {
             nome: 'hyunday',
+            modello: 500,
+            alimentazione: ['metano', ]
 
         },
         {
             nome: 'honda',
+            modello: 500,
+            alimentazione: ['gasoloio', ]
 
         },
         {
             nome: 'ferrari',
+            modello: 500,
+            alimentazione: ['benzina', ]
 
         },
         {
             nome: 'citroen',
+            modello: 500,
+            alimentazione: ['gpl', ]
 
         },
         {
             nome: 'cupra',
+            modello: 500,
+            alimentazione: ['benzina', ]
 
         },
         {
             nome: 'bmw',
+            modello: 500,
+            alimentazione: ['elettrica', ]
 
         },
         {
             nome: 'audi',
+            modello: 500,
+            alimentazione: ['gasolio', ]
 
         },
         {
             nome: 'alfa romeo',
+            modello: 500,
+            alimentazione: ['gpl', ]
 
         },
     ];
     console.log(automobili);
+
+    automobili.forEach(() => {
+
+    })
+
 
 
 
